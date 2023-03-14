@@ -80,7 +80,7 @@ int pop()
     {
         value = arr[top];
         top -=1;
-        printf("%d got popped\n", value);
+        printf("%d was popped\n", value);
         return value;
     }
     else
